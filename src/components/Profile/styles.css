@@ -4,7 +4,7 @@
 
 .profile {
   padding-top: 10%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 
 .profile__image {
@@ -25,3 +25,148 @@
   line-height: 0px;
   color: #a9a9a9;
 }
+
+.profile__stats {
+  display: grid;
+  column-gap: 10px;
+  grid-template-areas: "posts followers following";
+  margin: 0 auto;
+}
+.profile__stats--posts {
+  grid-area: posts;
+}
+
+.profile__stats--followers {
+  grid-area: followers;
+}
+
+.profile__stats--following {
+  grid-area: following;
+}
+
+.profile__stat {
+  background: #e5e5e5;
+  border-radius: 12px;
+  width: 78px;
+  height: 52px;
+  padding-top: 20%;
+}
+
+.profile__stat__text {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 0.8em;
+  line-height: 3px;
+  text-align: center;
+  color: #4e5150;
+}
+
+
+
+/*Mobile L*/
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .profile__name {
+    font-size: 1.2em;
+    line-height: 15px;
+  }
+  
+  .profile__location {
+    font-size: .85em;
+  }
+
+  .profile__stat {
+    width: 90px;
+    height: 60px;
+  }
+  
+  .profile__stat__text {
+    font-size: 0.9em;
+    line-height: 3px;
+  }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .profile__image {
+    width: 20%;
+    border-radius: 30%;
+  }
+
+  .profile__name {
+    font-size: 1.3em;
+    line-height: 20px;
+  }
+  
+  .profile__location {
+    font-size: .85em;
+  }
+
+  .profile__stat {
+    width: 90px;
+    height: 60px;
+  }
+  
+  .profile__stat__text {
+    font-size: 0.9em;
+    line-height: 3px;
+  }
+}
+
+/*Laptop*/
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .profile__image {
+    width: 15%;
+    border-radius: 30%;
+  }
+
+  .profile__name {
+    font-size: 1.3em;
+    line-height: 20px;
+  }
+  
+  .profile__location {
+    font-size: .85em;
+  }
+
+  .profile__stat {
+    width: 90px;
+    height: 60px;
+  }
+  
+  .profile__stat__text {
+    font-size: 0.9em;
+    line-height: 3px;
+  }
+}
+
+/*Laptop L*/
+
+@media screen and (min-width: 1440px) {
+  .profile__image {
+    width: 15%;
+    border-radius: 30%;
+  }
+
+  .profile__name {
+    font-size: 1.3em;
+    line-height: 20px;
+  }
+  
+  .profile__location {
+    font-size: .85em;
+  }
+
+  .profile__stat {
+    width: 90px;
+    height: 60px;
+  }
+  
+  .profile__stat__text {
+    font-size: 0.9em;
+    line-height: 3px;
+  }
+}
+

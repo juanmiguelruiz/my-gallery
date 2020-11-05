@@ -14,10 +14,10 @@
       <div class="col-12 d-flex justify-content-center ">
         <p class="profile__location">{{ location }}</p>
       </div>
-      <div class="col-12 d-flex justify-content-center profile__stats container ">
-        <div class="col-4"><Stat name="Posts" number="100" /></div>
-        <div class="col-4"><Stat name="Followers" number="2.242" /></div>
-        <div class="col-4"><Stat name="Following" number="1,432" /></div>
+      <div class="profile__stats">
+        <div class="profile__stats--posts"><Stat name="Posts" number="100" /></div>
+        <div class="profile__stats--followers"><Stat name="Followers" number="2.242" /></div>
+        <div class="profile__stats--following"><Stat name="Following" number="1,432" /></div>
       </div>
     </div>
   </div>

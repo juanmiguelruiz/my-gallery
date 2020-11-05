@@ -1,0 +1,145 @@
+.gallery {
+    width: 95%;
+    margin: 7% auto;
+    display: grid;
+    grid-template: 33.33%;
+    column-gap: 0px;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "photo1 photo2 photo2"
+      "photo3 photo3 photo4"
+      "photo5 photo6 photo4"
+  }
+  
+  .gallery__image {
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    height: 110px;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+  }
+  
+  .gallery__image--photo1{
+    grid-area: photo1;
+  
+  }
+  .gallery__image--photo2{
+    grid-area: photo2;
+  }
+  .gallery__image--photo3{
+    grid-area: photo3;
+  }
+  .gallery__image--photo4{
+    height: 225px;
+    grid-area: photo4;
+  }
+  .gallery__image--photo5{
+    grid-area: photo5;
+  }
+  .gallery__image--photo6{
+    grid-area: photo6;
+  }
+
+  /*Mobile M*/
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  
+
+}
+
+/*Mobile L*/
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .gallery {
+    width: 90%;
+  }
+
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .gallery {
+    width: 70%;
+    margin: 7% auto;
+    display: grid;
+    grid-template-columns: 33.33%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "photo1 photo2 photo2"
+      "photo3 photo3 photo4"
+      "photo5 photo6 photo4"
+  }
+
+  
+  .gallery__image {
+    height: 160px;
+    width: 100%;
+  }
+
+  .gallery__image--photo4{
+    height: 330px;
+   
+  }
+
+}
+
+/*Laptop*/
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .gallery {
+    width: 60%;
+    margin: 7% auto;
+    display: grid;
+    grid-template-columns: 33.33%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "photo1 photo2 photo2"
+      "photo3 photo3 photo4"
+      "photo5 photo6 photo4"
+  }
+
+  
+  .gallery__image {
+    height: 160px;
+    width: 100%;
+  }
+
+  .gallery__image--photo4{
+    height: 330px;
+   
+  }
+
+}
+
+/*Laptop L*/
+
+@media screen and (min-width: 1440px){
+
+  .gallery {
+    width: 45%;
+    margin: 7% auto;
+    display: grid;
+    grid-template-columns: 33.33%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "photo1 photo2 photo2"
+      "photo3 photo3 photo4"
+      "photo5 photo6 photo4"
+  }
+
+  
+  .gallery__image {
+    height: 160px;
+    width: 100%;
+  }
+
+  .gallery__image--photo4{
+    height: 330px;
+   
+  }
+
+}
+
+
+  
