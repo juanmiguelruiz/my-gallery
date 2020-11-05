@@ -1,24 +1,13 @@
-# my-gallery
+# My Gallery (devchallenges.io challenge)
 
-## Project setup
-```
-npm install
-```
+<a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">Challenge</a> | <a href="https://my-gallery-psi.vercel.app/">Demo</a>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Challenge: Create a static page with HTML and CSS following the designs. You can give it your personal styles by using different images or text. Don’t look at the existing solution.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+User story: I can see a page following the given design
 
-### Lints and fixes files
-```
-npm run lint
-```
+Tech: VueJS.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<img src="https://github.com/juanmiguelruiz/website/blob/main/src/assets/img/my-gallery/preview.png" alt="" width=100%/>
+<img src="https://github.com/juanmiguelruiz/website/blob/main/src/assets/img/my-gallery/preview_m.png" alt="" width=30%/>
+
