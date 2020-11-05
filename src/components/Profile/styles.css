@@ -1,0 +1,27 @@
+* {
+  font-family: Montserrat;
+}
+
+.profile {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.profile__image {
+  width: 30%;
+  border-radius: 30%;
+}
+
+.profile__name {
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 10px;
+  color: #4e5150;
+}
+
+.profile__location {
+  font-weight: 600;
+  font-size: 0.7em;
+  line-height: 0px;
+  color: #a9a9a9;
+}
